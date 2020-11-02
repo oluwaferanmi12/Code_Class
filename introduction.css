@@ -1,0 +1,186 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background: #252422;
+    position: sticky;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+}
+
+
+.navlist ul li{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    
+
+}
+.black{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1.5px solid #DFF3E4;
+    color: #DFF3E4;
+    margin-right: 2rem;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+
+.black:hover{
+   text-decoration: none;
+    color: #252422;
+    background: #DFF3E4;
+    transition: 1s ease;
+}
+.home{
+    color: #252422;
+    background: #DFF3E4;    
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1.5px solid #DFF3E4;
+    
+    margin-right: 2rem;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: 500;
+}
+.home:hover{
+    color: #DFF3E4;
+    background: #252422;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+/* The Body of the Code  */
+
+.countdown-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.big-text {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0.2rem;
+    /* color: red; */
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#content {
+    padding: 30px;
+}
+
+#content .introduction {
+    padding-top: 60px;
+}
+
+#content .welcome {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #3B341F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
+#content .welcome::after {
+    content: '';
+    flex: 1;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.3);
+    margin-left: 20px;
+}
+
+#content .intro {
+    padding-right: 20px;
+}
+
+
+/* The Course Content */
+
+#course-content .front-end {
+    display: flex;
+    align-items: center;
+}
+
+#course-content .front-end::after {
+    content: "";
+    flex: 1;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #252422;
+    color: white;
+    font-size: 40px;
+    height: 100px;
+    
+}
+
+/*  Course Outline */
+.dropdown .bootstrap-select .btn:focus{
+    outline: none;
+}
+
+#course-content li{
+    list-style-type: none;
+    margin-bottom: 8px;
+    font-family: cursive;
+    font-weight: 300;
+    
+}
+
+/* Course Content */
+.theList li{
+    margin-left: 1rem;
+}
+.theList li i{
+    margin-right: 0.5rem;
+}
+.css ol li{
+    margin-left: 10rem;
+}
+
+/* About Page */
+html{
+    font-size: 62.5%;
+}
+.register{
+    margin-top: 3rem;
+}
+.register a{
+    
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 2rem;
+    background: #252422;
+    border: 1px solid #252422;
+    padding: 5px 8px;
+    border-radius: 8px;
+    color: #DFF3E4;
+   }
+.register a:hover{
+    background: #DFF3E4;
+    color: #252422;
+    outline: none;
+    border: none;
+    box-shadow: 0px 5px 5px #252422;
+    transition: 0.5s ease;
+}
