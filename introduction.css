@@ -16,6 +16,13 @@ nav{
     margin: auto;
 }
 
+.header_area{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+
 
 .navlist ul li{
     display: flex;
@@ -35,9 +42,24 @@ nav{
     font-weight: 500;
 }
 
+.Navbar_but{
+    transition: 0.2s;
+}
+
+.Navbar_but:focus{
+    outline: none;
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.Navbar_but:hover{
+    
+    color: white !important;
+}
+
 
 .black:hover{
-   text-decoration: none;
+    text-decoration: none;
     color: #252422;
     background: #DFF3E4;
     transition: 1s ease;
@@ -92,7 +114,7 @@ nav{
     padding-top: 60px;
 }
 
-#content .welcome {
+.welcome {
     display: flex;
     align-items: center;
     font-size: 32px;
@@ -102,7 +124,7 @@ nav{
     padding-bottom: 30px;
 }
 
-#content .welcome::after {
+.welcome::after {
     content: '';
     flex: 1;
     border-bottom: 4px solid rgba(0, 0, 0, 0.3);
@@ -184,7 +206,7 @@ html{
     padding: 5px 8px;
     border-radius: 8px;
     color: #DFF3E4;
-   }
+}
 .register a:hover{
     background: #DFF3E4;
     color: #252422;
@@ -204,6 +226,14 @@ html{
     .content-div{
         font-size: 12px !important;
         line-height: 18px;
+    }
+    .theaboutbanner{
+        width: 350px;
+
+    }
+    .theaboutdiv{
+        text-align: left !important;
+        padding: 30px 12px !important;
     }
 }
 
