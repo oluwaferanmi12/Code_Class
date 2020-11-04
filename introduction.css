@@ -244,7 +244,7 @@ html{
 .contactBody{
     text-align: center;
     text-transform: uppercase;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
 }
 .map{
