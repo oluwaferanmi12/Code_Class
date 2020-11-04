@@ -239,3 +239,52 @@ html{
     }
 }
 
+/* Contact Page */
+
+.contactBody{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: 500;
+}
+.map{
+    border: 3px solid white;
+    box-shadow: 0px 5px 10px grey;
+    border-radius: 10px;
+}
+
+.contactUs{
+    background-image: url(./images/pexels-negative-space-34153.jpg) !important;
+    color: white !important; 
+    font-weight: 900;
+    background-repeat: no-repeat !important; 
+    background-position: center !important; 
+    background-size: cover !important; 
+}
+
+.directionExplained{
+    background: #DFF3E4;
+    margin-top: 2rem;
+    color: #252422;
+    text-transform: none;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px grey;
+}
+
+.directionExplained h3{
+    text-align: center;
+    padding: 1rem;
+}
+.directionExplained p{
+    padding: 1rem;
+}
+.message{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding-bottom: 9px;
+
+
+}
+
